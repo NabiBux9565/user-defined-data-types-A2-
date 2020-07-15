@@ -1,0 +1,18 @@
+// decalring TYPE (enum):
+
+
+TYPE SEASON
+   summer = 1
+   winter = 2
+   autumn = 3
+   spring = 6
+END TYPE
+
+
+// USING TYPE:
+
+
+
+DECLARE Weather : SEASON
+    Weather = summer
+    OUTPUT ("Weather : ", Weather)
